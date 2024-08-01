@@ -45,12 +45,7 @@ const HeaderLandingAppointment = () => {
                   className="signIn-action d-flex align-items-center"
                 >
                   <img src="images/icon/120.svg" alt="icon" />
-                  <span>login</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="signup" className="signup-btn">
-                  <span>Sign up</span>
+                  <span>Register</span>
                 </Link>
               </li>
             </ul>

@@ -94,12 +94,7 @@ const HeaderLandingEditor = () => {
                   className="signIn-action d-flex align-items-center"
                 >
                   <img src="images/icon/52.svg" alt="icon" />
-                  <span>login</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="signup" className="signup-btn">
-                  <span>Sign up</span>- It’s Free
+                  <span>Register</span>
                 </Link>
               </li>
             </ul>

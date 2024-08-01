@@ -70,7 +70,7 @@ const HeaderLanding = () => {
                       "features",
                       "about",
                       "product",
-                      "pricing",
+                      // "pricing",
                       "feedback",
                     ]}
                     currentClassName="active"
@@ -91,11 +91,11 @@ const HeaderLanding = () => {
                         Product
                       </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a href="#pricing" className="nav-link">
                         Pricing
                       </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <a href="#feedback" className="nav-link">
                         Feedback
@@ -131,7 +131,8 @@ const HeaderLanding = () => {
         <Scrollspy
           className="navbar-nav"
           id="theme-menu-list"
-          items={["features", "about", "product", "pricing", "feedback"]}
+          // items={["features", "about", "product", "pricing", "feedback"]}
+          items={["features", "about", "product", "feedback"]}
           currentClassName="active"
           offset={-200}
         >
@@ -150,11 +151,11 @@ const HeaderLanding = () => {
               Product
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a href="#pricing" className="nav-link" onClick={handleClick}>
               Pricing
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a href="#feedback" className="nav-link" onClick={handleClick}>
               Feedback

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MegaMenu from "./mega-menu/MegaMenu";
 import MegaMenuMobile from "./mega-menu/MegaMenuMobile";
-import effybuy_logo_with_name from '../../assets/images/icon/New_effybuy_logo_with_name.webp'
+import Clogo from "../../assets/images/icon/CERADALOGO.png";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -28,9 +28,7 @@ const Header = () => {
       >
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo">
-            <Link to="/">
-              <img src={effybuy_logo_with_name} alt="EffyBuy Logo" />
-            </Link>
+            <img src={Clogo} alt="CLogo" />
           </div>
           {/* End Logo */}
 
@@ -46,13 +44,8 @@ const Header = () => {
 
                   <ul className="right-button-group d-flex align-items-center justify-content-center">
                     <li>
-                      <a href="https://www.effybuy.com/bizgam20/apps/baf.php" className="signIn-action">
-                        Login
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.effybuy.com/bizgam20/apps/baf.php/B_OS_BAF_USER_REGISTER/EDIT" className="signUp-action" onClick={()=>{window.lintrk('track', { conversion_id: 7514468 });}}>
-                        Sign Up
+                      <a href="" className="signIn-action">
+                        Register
                       </a>
                     </li>
                   </ul>

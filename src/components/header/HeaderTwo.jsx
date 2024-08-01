@@ -28,7 +28,7 @@ const HeaderThree = () => {
         <div className="d-flex align-items-center justify-content-center">
           <div className="logo">
             <Link to="/">
-              <img src="images/logo/deski_01.svg" alt="EffyBuy Logo" />
+              <img src="images/logo/deski_01.svg" alt="Logo" />
             </Link>
           </div>
           {/* End Logo */}
@@ -67,7 +67,7 @@ const HeaderThree = () => {
                         </li>
                         <li>
                           <Link to="signup" className="signUp-action">
-                            Sign Up
+                            Register
                           </Link>
                         </li>
                       </ul>

@@ -28,7 +28,7 @@ const HeaderFour = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo">
             <Link to="/">
-              <img src="images/logo/deski_05.svg" alt="EffyBuy Logo" />
+              <img src="images/logo/deski_05.svg" alt="Logo" />
             </Link>
           </div>
           {/* End Logo */}
