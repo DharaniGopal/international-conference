@@ -8,7 +8,7 @@ import EighthPannel from "../HomePAgeContent/EighthPannel";
 import first_pannel_image from "../../assets/images/FirstPannel.jpg";
 import Testimonial2 from "../HomePAgeContent/Testimonial2";
 import NinthPannel from "../HomePAgeContent/NinthPannel";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 
 class HomePageContent extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class HomePageContent extends React.Component {
         <ForthPannel />
         <FifthPannel />
         <Testimonial2 />
-        <Footer />
+        {/* <Footer /> */}
       </>
     );
   }
