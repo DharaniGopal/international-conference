@@ -19,11 +19,7 @@ const Routes = () => {
         <Route path="/" component={Header} />
       </Switch>
       <Switch>
-        <Route
-          exact
-          path="/international-conference"
-          component={HomePageContent}
-        />
+        <Route exact path="/" component={HomePageContent} />
       </Switch>
       <Switch>
         <Route exact path="/ICSTEET" component={HomePageContent} />
