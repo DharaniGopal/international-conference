@@ -21,7 +21,7 @@ const Routes = () => {
       <Switch>
         <Route
           exact
-          path="/international-conference/"
+          path="international-conference/"
           component={HomePageContent}
         />
       </Switch>
